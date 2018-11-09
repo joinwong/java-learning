@@ -1,21 +1,15 @@
-package com.yx.lambda;
+package com.yw.learning.lambda;
 
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
 /**
- * Note:JDK8+
+ * jdk8+
+ * Created by joinwong on 2018/11/8.
  */
-public class Main {
+public class Application {
     public static void main(String... args) {
-
         prt(System.out::println);
-
-        //prt("Hello",System.out::println);
-
-        //String str = get(()->"GOD");
-        //System.out.println(str);
-
     }
 
     private static void prt(String str, Consumer<String> action) {
