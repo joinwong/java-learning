@@ -3,8 +3,6 @@ package com.yw.learning.reference;
 import java.lang.ref.PhantomReference;
 import java.lang.ref.Reference;
 import java.lang.ref.ReferenceQueue;
-import java.lang.ref.SoftReference;
-import java.util.WeakHashMap;
 
 /**
  * 参见：https://blog.csdn.net/xlinsist/article/details/57089288
