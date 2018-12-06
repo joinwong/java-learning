@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Fork/Join 例子
- * Created by wangjun04 on 2018/11/12.
+ * Created by joinwong on 2018/11/12.
  */
 public class ForkJoinMaxNumberDemo{
     private static final Random random = new Random(System.currentTimeMillis());

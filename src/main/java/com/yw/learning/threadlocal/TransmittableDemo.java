@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * TransmittableThreadLocal
  * git:https://github.com/alibaba/transmittable-thread-local
- * Created by wangjun04 on 2018/11/12.
+ * Created by joinwong on 2018/11/12.
  */
 public class TransmittableDemo {
     //可以使用线程池，并且保持数据正确传递

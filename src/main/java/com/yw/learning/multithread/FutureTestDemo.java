@@ -5,7 +5,7 @@ import java.util.concurrent.*;
 /**
  * Future cancel
  * https://segmentfault.com/a/1190000007961347
- * Created by wangjun04 on 2018/11/13.
+ * Created by joinwong on 2018/11/13.
  */
 public class FutureTestDemo extends FutureBase{
     public static void main(String... args) throws Exception {

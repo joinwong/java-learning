@@ -7,7 +7,7 @@ import java.util.concurrent.*;
  * 原来 cancel(true) 方法的原理是向正在运行任务的线程发送中断指令 —— 即调用运行任务的 Thread 的 interrupt() 方法。
  * 所以 如果一个任务是可取消的，那么它应该可以对 Thread 的 interrupt() 方法做出被取消时的响应。
  * https://segmentfault.com/a/1190000007961347
- * Created by wangjun04 on 2018/11/13.
+ * Created by joinwong on 2018/11/13.
  */
 public class FuturePrimerDemo extends FutureBase{
     public static void main(String... args) throws Exception {

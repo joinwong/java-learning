@@ -3,7 +3,7 @@ package com.yw.learning.multithread;
 import java.util.concurrent.Future;
 
 /**
- * Created by wangjun04 on 2018/11/13.
+ * Created by joinwong on 2018/11/13.
  */
 public class FutureBase {
 
